@@ -1,0 +1,19 @@
+h1{
+    background-color: red;
+}
+#h11{
+    color: yellowgreen
+}
+
+.pc1{
+    text-align:center;
+}
+
+#h11,
+.pc1{
+    font-size: 100px;
+}
+
+*{
+    background: chocolate;
+}

@@ -1,0 +1,17 @@
+a:visited{
+    color: orange;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:active{
+    color: black;
+}
+
+img:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

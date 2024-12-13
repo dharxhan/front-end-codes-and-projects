@@ -1,0 +1,33 @@
+/* div{
+    background: red;
+    height: 90vh;
+} */
+
+/* div{
+    background: linear-gradient(90deg,
+        red,green,blue,yellow,orange,violet,gray);
+        height: 90vh;
+} */
+
+/* div{
+        background: linear-gradient(to left,
+        red,green,blue,yellow,orange,violet,gray);
+        height: 90vh;
+} */
+
+/* div{
+    background: radial-gradient(
+        red,green,blue,yellow,orange,violet,gray);
+        height: 90vh;
+} */
+
+div{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}

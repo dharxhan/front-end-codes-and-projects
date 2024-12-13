@@ -1,0 +1,33 @@
+div{
+    height: auto;
+    width: 100%;
+    background: blueviolet;
+    color: orange;
+    font-size: 50px;
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+    #mob {
+        display: block;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+    #tab {
+        display: block;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    #lap {
+        display: block;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    #full {
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+div{
+    height: 400px;
+    width: 400px;
+    background: orange;
+}
+ 
+div:hover{
+    transform: rotate(30deg)
+}
+/*
+div:hover{
+    transform: scale(1.5);
+}
+/*
+div:hover{
+    transform: skew(30deg);
+}
+*/
+div:hover{
+    transform: translate(20px,20px);
+}

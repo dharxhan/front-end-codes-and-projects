@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+h1{
+    font-size: 100px;
+    font-weight: lighter;
+    font-family: Tahoma;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+h2{
+
+        font-family: "Rubik Wet Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}

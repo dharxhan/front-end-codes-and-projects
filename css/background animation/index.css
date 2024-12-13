@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 80%;
+    background: black;
+    margin: auto;
+    box-shadow: 0 0 30px black;
+}
+
+section{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background: url("https://cdn.pixabay.com/photo/2024/11/07/03/12/lizard-9179598_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: 1px;
+    animation: image 5s infinite linear;
+}
+@keyframes image{
+    0%{
+        background: url("https://cdn.pixabay.com/photo/2024/09/01/11/36/tansy-9013813_640.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    20%{
+        background: url("https://cdn.pixabay.com/photo/2024/06/21/10/45/pedestrian-8844110_640.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background: url("https://cdn.pixabay.com/photo/2024/02/23/23/58/dog-8593014_640.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    80%{
+        background: url("https://cdn.pixabay.com/photo/2024/10/31/08/49/bird-9163532_640.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url("https://cdn.pixabay.com/photo/2023/12/01/19/11/bird-8424336_640.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

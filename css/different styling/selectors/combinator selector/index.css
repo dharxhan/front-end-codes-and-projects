@@ -1,0 +1,14 @@
+div p{
+    background-color: green;
+}
+div > p{
+    text-align: center;
+}
+
+div + p{
+    background-color: orange;
+}
+
+div ~ p{
+    font-size: 100px;
+}
